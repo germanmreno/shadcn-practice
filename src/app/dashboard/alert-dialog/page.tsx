@@ -19,11 +19,8 @@ export default function Page() {
 
   return (
     <div className='grid grid-cols-2 gap-4'>
-      <AlertDialog
-        open={dialogOpen}
-        onOpenChange={(open) => setDialogOpen(open)}
-      >
-        <AlertDialogTrigger>
+      <AlertDialog open={dialogOpen} onOpenChange={setDialogOpen}>
+        <AlertDialogTrigger asChild>
           <Button variant='outline'>Show Dialog</Button>
         </AlertDialogTrigger>
 
