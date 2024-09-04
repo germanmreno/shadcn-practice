@@ -20,6 +20,15 @@ const links = [
   { name: 'combobox', href: 'combobox' },
   { name: 'context menu', href: 'context-menu' },
   { name: 'menu bar', href: 'menu-bar' },
+  { name: 'input OTP', href: 'input-OTP' },
+  { name: 'progress', href: 'progress' },
+  { name: 'sheet', href: 'sheet' },
+  { name: 'skeleton', href: 'skeleton' },
+  { name: 'slider', href: 'slider' },
+  { name: 'sonner', href: 'sonner' },
+  { name: 'toast', href: 'toast' },
+  { name: 'tabs', href: 'tabs' },
+  { name: 'data table', href: 'data-table' },
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 export default function DashboardLayout({
